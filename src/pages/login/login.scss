@@ -1,0 +1,38 @@
+page-login {
+	.background {
+	  background: url('https://78.media.tumblr.com/ed365d58a888fc0d4375574de8be15cc/tumblr_p8itsnUuOI1we9f2ro2_r2_1280.gif') center /cover;
+	}
+
+	.bt-login {
+	  background-color: #162641;
+	}
+
+	.col-logo {
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	}
+
+	.img-logo {
+	  width: 100%;
+	  height: auto;
+	  border-radius: 100%;
+	}
+
+	.list-form {
+	  margin-top: 30vh;
+	  margin-bottom: 5vh;
+	}
+
+	.item-form {
+	  padding: 0px;
+	  background: none;
+	  margin-top: 10px;
+	  // box-shadow: none;
+	}
+
+	.input-form {
+	  color: white;
+	  border-bottom-color: white;
+	}
+}

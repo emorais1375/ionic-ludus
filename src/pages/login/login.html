@@ -1,0 +1,21 @@
+<ion-content padding class="background">
+		<ion-list class="list-form">
+			<ion-item class="item-form">
+				<ion-input class="input-form" type="text" placeholder="Username" [(ngModel)]="userData.username">
+				</ion-input>
+			</ion-item>
+
+			<ion-item class="item-form">
+				<ion-input class="input-form" type="password" placeholder="Password" [(ngModel)]="userData.password">
+				</ion-input>
+			</ion-item>
+		</ion-list>
+		<ion-row responsive-sm>
+			<ion-col>
+				<button class="bt-login" ion-button (click)="onLogin()" type="submit" block>Login</button>
+			</ion-col>
+			<ion-col>
+				<button ion-button (click)="onSignup()" color="light" block>Signup</button>
+			</ion-col>
+		</ion-row>
+</ion-content>

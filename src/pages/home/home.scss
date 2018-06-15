@@ -1,3 +1,19 @@
-page-home {
+page-home {  
 
+  .toolbar-background {
+    background-color: #2A2C43;
+  }
+
+  .toolbar-title,
+  .bar-button {
+    color: white;
+  }
+
+  .answer-text{
+    // margin: 0px;
+    // font-size: 1.4rem;
+    // line-height: 1.4;
+    white-space: normal;
+  }
+  
 }

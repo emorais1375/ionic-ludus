@@ -1,0 +1,34 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>
+			Create Account
+		</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	<ion-item>
+		<ion-input type="text" placeholder="Name" [(ngModel)]="userData.name">
+		</ion-input>
+	</ion-item>
+
+	<ion-item>
+		<ion-input type="text" placeholder="Email" [(ngModel)]="userData.email">
+		</ion-input>
+	</ion-item>
+
+	<ion-item>
+		<ion-input type="text" placeholder="Username" [(ngModel)]="userData.username">
+		</ion-input>
+	</ion-item>
+
+	<ion-item>
+		<ion-input type="password" placeholder="Password" [(ngModel)]="userData.password">
+		</ion-input>
+	</ion-item>
+
+
+	<button ion-button (click)="signup()" type="submit" block>signup</button>
+
+</ion-content>

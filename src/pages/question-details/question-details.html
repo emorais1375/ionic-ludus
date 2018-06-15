@@ -1,19 +1,16 @@
 <ion-header>
-	<ion-navbar>
-		<ion-title>
-			Home
-		</ion-title>
-	</ion-navbar>
+  <ion-navbar>
+    <ion-title>
+      Queston details
+    </ion-title>
+  </ion-navbar>
 </ion-header>
 
 <ion-content>
-	<h2>Welcome to {{userDetails.name}}</h2>
-	<h3>{{userDetails.email}}</h3>
-
-	<ion-list>
+  <ion-list>
 
 		<ion-item>
-			<p class="answer-text" (click)="openTips()">Questão 1 asjdnjasndjnasd asdjnajsdnjasnda sdjansdjansjdnasd asjdnajsndjansdjasd asjdajsndjasdja sdjansdjasd ajsdnajsd
+			<p class="answer-text">Questão 1 asjdnjasndjnasd asdjnajsdnjasnda sdjansdjansjdnasd asjdnajsndjansdjasd asjdajsndjasdja sdjansdjasd ajsdnajsd
 				ajsdnjasd jasnd?</p>
 			<button ion-button small round clear icon-only color="dark">
         <ion-icon name="md-create"></ion-icon>
@@ -32,6 +29,4 @@
 		</ion-item>
 
 	</ion-list>
-
-	<button ion-button color="primary" (click)="logout()">logout</button>
 </ion-content>
